@@ -14,5 +14,13 @@ def imprimir_laberinto(laberinto):
         for celda in fila:
             print(celda, end=' ')
         print()
-
+        
 imprimir_laberinto(laberinto)
+print("Intenta resolver el laberinto, empiezas en la posición (2, 2) y debes llegar a la posición (6,6)")
+print("Par moverte escribe: abajo, arriba, derecha, izquierda")
+print("primer movimiento, estas en la posición (2, 2)")
+if input() == "abajo":
+     print("movimiento correcto, sigue así")
+else:
+     print("movimiento no válido, empieza de nuevo")
+     quit
